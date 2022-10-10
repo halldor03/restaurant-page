@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* to show boxes */
+/* * {
+  border: 1px black solid;
+} */
+
+/* simple reset */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.4);
+  background-image: url(../src/img/background1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: lighten;
+}
+
+img,
+button {
+  cursor: pointer;
+}
+
+header {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.social {
+  display: flex;
+  margin-left: -1rem;
+}
+
+.fb,
+.insta {
+  height: 40px;
+  margin: 0.25rem;
+}
+
+.nav > button {
+  appearance: none;
+  border: 0;
+  background-color: rgba(0, 128, 0, 0.65);
+  color: #ffffff;
+  border-radius: 1.5rem;
+  height: 3rem;
+  padding: 0 1rem 0 1rem;
+  margin: 0 1rem 0 1rem;
+}
+
+.lang {
+  display: flex;
+}
+
+.langPL,
+.langEN,
+.langDE {
+  margin: 0.25rem;
+  height: 25px;
+}
+
+main {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.orderButton {
+  appearance: none;
+  border: 0;
+  background-color: rgba(0, 128, 0, 0.65);
+  color: #ffffff;
+  border-radius: 1.5rem;
+  height: 3rem;
+  padding: 0 1rem 0 1rem;
+}
+
+footer {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.4);
+}
