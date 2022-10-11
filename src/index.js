@@ -1,4 +1,11 @@
 import "./styles.css";
+import "./img/de.png";
+import "./img/en.png";
+import "./img/fb.png";
+import "./img/insta.png";
+import "./img/mail.png";
+import "./img/phone.png";
+import "./img/pl.png";
 import { createHome } from "./homepage.js";
 import { createMenu } from "./menu.js";
 import { createOpeningHours } from "./openingHours.js";
