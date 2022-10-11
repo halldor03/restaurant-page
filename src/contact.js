@@ -16,7 +16,7 @@ const createContact = (() => {
 
     const phone = document.createElement("img");
     phone.classList.add("insta");
-    phone.src = "../src/img/phone.png";
+    phone.src = phone_icon;
     subtitle1.before(phone);
 
     const subtitle2 = document.createElement("div");
@@ -26,7 +26,7 @@ const createContact = (() => {
 
     const mail = document.createElement("img");
     mail.classList.add("insta");
-    mail.src = "../src/img/mail.png";
+    mail.src = mail_icon;
     subtitle2.before(mail);
   };
 

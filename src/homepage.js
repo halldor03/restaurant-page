@@ -10,12 +10,12 @@ const createHome = (() => {
 
     const fb = document.createElement("img");
     fb.classList.add("fb");
-    fb.src = "../src/img/fb.png";
+    fb.src = fb_icon;
     social.appendChild(fb);
 
     const insta = document.createElement("img");
     insta.classList.add("insta");
-    insta.src = "../src/img/insta.png";
+    insta.src = insta_icon;
     social.appendChild(insta);
 
     const nav = document.createElement("div");
@@ -48,17 +48,17 @@ const createHome = (() => {
 
     const langPL = document.createElement("img");
     langPL.classList.add("langPL");
-    langPL.src = "../src/img/pl.png";
+    langPL.src = pl_icon;
     lang.appendChild(langPL);
 
     const langEN = document.createElement("img");
     langEN.classList.add("langEN");
-    langEN.src = "../src/img/en.png";
+    langEN.src = en_icon;
     lang.appendChild(langEN);
 
     const langDE = document.createElement("img");
     langDE.classList.add("langDE");
-    langDE.src = "../src/img/de.png";
+    langDE.src = de_icon;
     lang.appendChild(langDE);
   };
 

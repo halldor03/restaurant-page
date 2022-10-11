@@ -1,11 +1,11 @@
 import "./styles.css";
-import "./img/de.png";
-import "./img/en.png";
-import "./img/fb.png";
-import "./img/insta.png";
-import "./img/mail.png";
-import "./img/phone.png";
-import "./img/pl.png";
+import de_icon from "./img/de.png";
+import en_icon from "./img/en.png";
+import fb_icon from "./img/fb.png";
+import insta_icon from "./img/insta.png";
+import mail_icon from "./img/mail.png";
+import phone_icon from "./img/phone.png";
+import pl_icon from "./img/pl.png";
 import { createHome } from "./homepage.js";
 import { createMenu } from "./menu.js";
 import { createOpeningHours } from "./openingHours.js";
