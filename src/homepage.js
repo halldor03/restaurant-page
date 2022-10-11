@@ -1,3 +1,9 @@
+import de_icon from "./img/de.png";
+import en_icon from "./img/en.png";
+import pl_icon from "./img/pl.png";
+import fb_icon from "./img/fb.png";
+import insta_icon from "./img/insta.png";
+
 const createHome = (() => {
   const content = document.getElementById("content");
   const createHeader = () => {

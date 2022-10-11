@@ -1,3 +1,6 @@
+import mail_icon from "./img/mail.png";
+import phone_icon from "./img/phone.png";
+
 const createContact = (() => {
   const createMain = () => {
     const header = document.querySelector("header");
